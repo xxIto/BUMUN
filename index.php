@@ -32,7 +32,7 @@ include "database/config.php";
 
     <!-- --- Title --- -->
     <title>Website Kampung Bumun | Sistem Informasi Desa</title>
-    <link rel="icon" href="favicon.ico" type="assets/img/itooo.jpg">
+    <link rel="icon" href="assets/img/favicon.ico" type="assets/img/itooo.jpg">
 
     <!-- --- Link --- -->
     <link href="https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i" rel="stylesheet" />
@@ -172,7 +172,7 @@ include "database/config.php";
                                         <i class="bi bi-caret-down" onclick="$(&#39;.menudrop&#39;).slideToggle();"></i> </a>
                                     <ul class="menudrop">
                                         <li><a href="/" title="Pendidikan">Pendidikan</a></li>
-                                        <li><a href="/" title="Penduduk">Penduduk</a></li>
+                                        <li><a href="web/data.html" title="Penduduk">Penduduk</a></li>
                                         <li><a href="/" title="Wilayah">Wilayah</a></li>
                                     </ul>
                                 </li>

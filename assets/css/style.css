@@ -1436,7 +1436,7 @@ a:hover {
   display: inline;
   float: none;
   _float: left;
-  *float: left;
+  float: left;
   margin-right: 5px
 }
 
@@ -1450,7 +1450,7 @@ a:hover {
   background: rgba(0, 0, 0, .2);
   display: inline-block;
   _display: block;
-  *display: block;
+  display: block;
   -webkit-box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .3);
   -moz-box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .3);
   box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .3);
@@ -1752,7 +1752,8 @@ a:hover {
     ;
     padding-top: 0px;
     float: center;
-    margin-left: 0px margin-bottom:20px
+    margin-left: 0px;
+    margin-bottom:20px
   }
 
   #header {
@@ -2910,7 +2911,8 @@ td.tr-caption {
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  border-bottom: 0px color:#fff
+  border-bottom: 0px;
+  color:#fff
 }
 
 .menubar1 {
@@ -3014,7 +3016,8 @@ td.tr-caption {
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  border-bottom: 0px color:#b40404
+  border-bottom: 0px;
+  color:#b40404
 }
 
 .menubar2 {
@@ -4028,7 +4031,8 @@ td.tr-caption {
   height: 33px;
   margin: 0px auto;
   padding: 0px;
-  border-bottom: 0px color:#b40404
+  border-bottom: 0px;
+  color:#b40404
 }
 
 .menubar3 {
@@ -4127,7 +4131,8 @@ td.tr-caption {
     height: 30px;
     margin: 0px auto;
     padding: 0px;
-    border-bottom: 0px color:#b40404
+    border-bottom: 0px;
+    color:#b40404
   }
 
   .menubar3 {
@@ -4802,7 +4807,8 @@ a.blanter-order-btn1:hover {
   width: 100%;
   margin: -15px auto 10px;
   padding: 0px;
-  border-bottom: 1px color:#b40404
+  border-bottom: 1px;
+  color:#b40404
 }
 
 .menubar5 {
@@ -5068,7 +5074,7 @@ a.blanter-order-btn2:hover {
 
 .pricing-section2 i {
   font-size: 3rem;
-  #002CA5;
+  color: #002CA5;
 }
 
 .blanter-price2 {
@@ -5441,7 +5447,7 @@ a.blanter-order-btn2:hover {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000\9;
+  background-color: #0009;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #fff;
   border-radius: 10px;
@@ -5715,14 +5721,12 @@ h5.counter-number sup {
 }
 
 .speech-bubble:after {
-  border: .5em solid transparent;
-  content: &quot;
-  &quot;
-  ;
-  margin-left: -.5em;
+  border: 0.5em solid transparent;
+  content: "";
+  margin-left: -0.5em;
   position: absolute;
   top: 100%;
-  left: 50%
+  left: 50%;
 }
 
 .bar-inner,
@@ -5868,8 +5872,7 @@ h5.counter-number sup {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6200ea', endColorstr='#ffd600', GradientType=0);
   /* IE6-9 */
-  !important;
-  color: #fff
+  color: #fff !important;
 }
 
 .social-icons a.rss {
@@ -5903,7 +5906,7 @@ h5.counter-number sup {
 }
 
 #layout:before {
-  content: "Lisensi: indotema.com ";
+  content: "";
   position: absolute;
   left: 40px;
   top: 15px;
@@ -5924,7 +5927,6 @@ body#layout ul {
   display: none;
 }
 
-<style type="text/css">
 .label-ttl {
     overflow: hidden;
     margin: 0;
